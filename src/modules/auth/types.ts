@@ -1,6 +1,6 @@
 export interface IFormInput {
     type?: IInputTypes
-    component?: IInputComp
+    component: IInputComp
     placeholder: string
     value: string | ''
     disabled?: boolean

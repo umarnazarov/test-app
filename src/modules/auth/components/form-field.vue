@@ -1,7 +1,7 @@
 <template>
     <div>
-        <component :placeholder="input.placeholder" class="w-full" :id="input.placeholder" :type="input.type"
-            v-model="input.value" :is="input.component"></component>
+        <component :placeholder="input.placeholder" class="w-full" :id="input.placeholder" v-model="input.value"
+            :is="input.component"></component>
     </div>
 </template>
 <script lang="ts" setup>
